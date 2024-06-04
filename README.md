@@ -1,7 +1,7 @@
 # healthy-beans
 
 ## Description:
-This project explores deep learning techniques for binary image classification on a low-resource dataset. Specifically, we utilized the Beans dataset, consisting of images of healthy and unhealthy bean plant leaves, as a proxy for screening rare genetic disorders. The insights gained from this task can inform the development of more accessible and cost-effective diagnostic tools.
+This project explores deep learning techniques for binary image classification on a low-resource dataset. Specifically, we utilized the Beans dataset, consisting of images of healthy and unhealthy bean plant leaves, as a proxy for screening rare genetic disorders. The insights gained from this task can inform the development of more accessible and cost-effective diagnostic tools. Dataset:  https://www.kaggle.com/datasets/csafrit2/plant-leaves-for- image-classification
 
 ## Components:
 
