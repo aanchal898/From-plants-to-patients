@@ -9,25 +9,25 @@ This project explores deep learning techniques for binary image classification o
 
 Model Architecture: Implemented a custom version of AlexNet due to its simplicity and proven effectiveness.
 Hyperparameters:
-Learning Rate: 0.01
-Batch Size: 16
-Epochs: 50
-Optimizer: Stochastic Gradient Descent
-Loss: Cross Entropy Loss
-Performance: Trained on the Beans dataset, achieving notable results on the validation set. Detailed performance is presented in the confusion matrix.
+- Learning Rate: 0.01
+- Batch Size: 16
+- Epochs: 50
+- Optimizer: Stochastic Gradient Descent
+- Loss: Cross Entropy Loss
+- Performance: Trained on the Beans dataset, achieving notable results on the validation set. Detailed performance is presented in the confusion matrix.
 ### Autoencoder:
 Model Architecture: A CNN-based autoencoder with distinct encoder and decoder components.
-Encoder: 4 convolutional layers with ReLU activations and batch normalization, followed by 2 linear layers.
-Decoder: 4 convolutional layers with ReLU activations and batch normalization, followed by 2 linear layers.
-Classifier: Uses the encoder layer, followed by 3 linear layers for classification.
+- Encoder: 4 convolutional layers with ReLU activations and batch normalization, followed by 2 linear layers.
+- Decoder: 4 convolutional layers with ReLU activations and batch normalization, followed by 2 linear layers.
+- Classifier: Uses the encoder layer, followed by 3 linear layers for classification.
 Hyperparameters:
-Encoder/Decoder Learning Rate: 0.01
-Classifier Learning Rate: 0.001
-Batch Size: 4 (Autoencoder), 16 (Classifier)
-Epochs: 7 (Autoencoder), 30 (Classifier)
-Optimizer: Adam (Autoencoder), SGD (Classifier)
-Loss: Mean Squared Error (Autoencoder), Cross Entropy Loss (Classifier)
-Performance: Evaluated on the Beans dataset with results detailed in a confusion matrix.
+- Encoder/Decoder Learning Rate: 0.01
+- Classifier Learning Rate: 0.001
+- Batch Size: 4 (Autoencoder), 16 (Classifier)
+- Epochs: 7 (Autoencoder), 30 (Classifier)
+- Optimizer: Adam (Autoencoder), SGD (Classifier)
+- Loss: Mean Squared Error (Autoencoder), Cross Entropy Loss (Classifier)
+- Performance: Evaluated on the Beans dataset with results detailed in a confusion matrix.
 ### Other Methods (Discussion):
 Discussed various approaches for effective classification with limited labeled samples, including data augmentation, transfer learning, shallow networks, active learning, and ensemble methods.
 
