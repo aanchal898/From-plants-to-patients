@@ -43,4 +43,6 @@ Discussed various approaches for effective classification with limited labeled s
 - Results: Confusion matrices, learning curves, and performance metrics.
 - Blind Test Predictions: Results for the blind test dataset in CSV format.
 This project showcases the application of deep learning models to low-resource datasets, highlighting the potential for developing scalable and cost-effective diagnostic tools in various fields.
+
+ 
  For more details, read the Report pdf file. Thanks :)
